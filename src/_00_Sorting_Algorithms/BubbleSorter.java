@@ -19,9 +19,12 @@ public class BubbleSorter extends Sorter {
 					array[i + 1] = array[i];
 					array[i] = swap;
 					isInOrder = false;
-					display.updateDisplay();
+					
 				}
+				
 			}
+			display.updateDisplay();
+			
 
 		}
 	}

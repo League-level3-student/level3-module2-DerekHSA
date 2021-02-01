@@ -35,6 +35,7 @@ public class BogoSorter extends Sorter {
 					display.updateDisplay();
 				}
 			}
+			
 
 		}
 
