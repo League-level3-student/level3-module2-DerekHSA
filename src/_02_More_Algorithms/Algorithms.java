@@ -4,6 +4,12 @@ import java.util.List;
 
 public class Algorithms {
 	public static int findBrokenEgg(List<String> eggs) {
-		return 0;
+		for (int i = 0; i < eggs.size(); i++) {
+			if (eggs.get(i).equalsIgnoreCase("cracked")) {
+				return i;
+			}
+
+		}
+		return -1;
 	}
 }
