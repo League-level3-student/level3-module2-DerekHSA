@@ -1,7 +1,5 @@
 package _00_Sorting_Algorithms;
 
-import java.util.Iterator;
-
 public class InsertionSorter extends Sorter {
 	public InsertionSorter() {
 		type = "Insertion";

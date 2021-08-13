@@ -29,12 +29,13 @@ public class HeapSorter extends Sorter {
 			array[0] = array[i];
 			array[i] = swap;
 			heapSort(array, i, 0, display);
+			display.updateDisplay();
 			
 		}
 		// 11. swap the array elements at 0 and i.
 
 		// 12. call the heapSort method with i and 0
-		display.updateDisplay();
+		
 	}
 
 	public void heapSort(int[] array, int n, int i, SortingVisualizer display) {
